@@ -1,10 +1,8 @@
 function getProjects() {
     let projects = [];
 
-    for (let i = 0; i < 25; i++) {
-        let p = new Project("#EA4335", "http://www.google.com/", "Project " + i, "A Project");
+        let p = new Project("#EA4335", "https://milktwosugars.github.io/SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders");
         projects.push(p);
-    }
 
     return projects;
 }
