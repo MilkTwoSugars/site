@@ -7,6 +7,10 @@ function getProjects() {
     projects[1] = new Project("#99ccff", GITROOT + "OceanSynth/", "Ocean Piano", "Bubbles (Requires MIDI keyboard)");
     projects[2] = new Project("#00cc99", GITROOT + "TouchLFO/", "Touch LFO", "Annoying noise generator");
     projects[3] = new Project("#ff8000", GITROOT + "Conveyor/", "Conveyor", "Colour mixing");
+    // projects[4] = new Project("black", "", "Blank", "Nothing yet");
+    // projects[5] = new Project("black", "", "Blank", "Nothing yet");
+    // projects[6] = new Project("black", "", "Blank", "Nothing yet");
+    // projects[7] = new Project("black", "", "Blank", "Nothing yet");
 
     return projects;
 }
