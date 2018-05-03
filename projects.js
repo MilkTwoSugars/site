@@ -1,8 +1,13 @@
+const GITROOT = "https://milktwosugars.github.io/"
+
 function getProjects() {
     let projects = [];
 
-        let p = new Project("#EA4335", "https://milktwosugars.github.io/SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders");
-        projects.push(p);
+        let a = new Project("#EA4335", GITROOT + "SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders");
+	let b = new Project("#EA4335", GITROOT+ "OceanSynth/", "Ocean Piano", "ooh bubbles");
+
+        projects.push(a);
+	projects.push(b);
 
     return projects;
 }
