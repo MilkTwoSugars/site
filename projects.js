@@ -3,11 +3,9 @@ const GITROOT = "https://milktwosugars.github.io/"
 function getProjects() {
     let projects = [];
 
-        let a = new Project("#EA4335", GITROOT + "SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders");
-	let b = new Project("#EA4335", GITROOT+ "OceanSynth/", "Ocean Piano", "ooh bubbles");
-
-        projects.push(a);
-	projects.push(b);
+    projects[0] = new Project("#EA4335", GITROOT + "SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders (requires MIDI keyboard)");
+    projects[1] = new Project("#EA4335", GITROOT + "OceanSynth/", "Ocean Piano", "Bubbles (Requires MIDI keyboard)");
+    projects[2] = new Project("#EA4335", GITROOT + "TouchLFO/", "Touch LFO", "Annoying noise generator");
 
     return projects;
 }
