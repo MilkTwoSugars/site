@@ -12,7 +12,7 @@ html, body {
 }
 
   .title {
-  font-size: 30px;
+  font-size: 24px;
   }
 
   .navbar {
@@ -65,12 +65,14 @@ html, body {
   }
 
   .flex-cell:hover {
-    background-color: turquoise !important;
+    background-color: white !important;
+    color: black
   }
 
   @media only screen and (max-width: 1100px) {
   .flex-container {
     margin-top: 15%;
   }
+
 }
 
