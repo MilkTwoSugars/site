@@ -8,7 +8,7 @@ function getProjects() {
     projects[2] = new Project("#00cc99", GITROOT + "TouchLFO/", "Touch LFO", "Annoying noise generator");
     projects[3] = new Project("#ff8000", GITROOT + "Patchy/", "Patchy", "LFO prototype");
     projects[4] = new Project("#009933", GITROOT + "Cells/", "Cells", "Singing cells");
-    // projects[4] = new Project("black", "", "Blank", "Nothing yet");
+    projects[5] = new Project("#10ab7c", GITROOT + "Cells2/", "Cells II", "Evolutionary cells");
     // projects[5] = new Project("black", "", "Blank", "Nothing yet");
     // projects[6] = new Project("black", "", "Blank", "Nothing yet");
     // projects[7] = new Project("black", "", "Blank", "Nothing yet");
