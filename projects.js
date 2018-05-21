@@ -5,7 +5,7 @@ function getProjects() {
 
     projects[0] = new Project("#EA4335", GITROOT + "SimpleSynth/", "Simple Synth ", "A basic synthesiser with sliders (requires MIDI keyboard)");
     projects[1] = new Project("#99ccff", GITROOT + "OceanSynth/", "Ocean Piano", "Bubbles (Requires MIDI keyboard)");
-    projects[2] = new Project("#00cc99", GITROOT + "TouchLFO/", "Touch LFO", "Annoying noise generator");
+    projects[2] = new Project("#ffad33", GITROOT + "TouchLFO/", "Touch LFO", "Annoying noise generator");
     projects[3] = new Project("#ff8000", GITROOT + "Patchy/", "Patchy", "LFO prototype");
     projects[4] = new Project("#009933", GITROOT + "Cells/", "Cells", "Singing cells");
     projects[5] = new Project("#10ab7c", GITROOT + "Cells2/", "Cells II", "Evolutionary cells");
