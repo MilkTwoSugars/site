@@ -10,7 +10,7 @@ function getProjects() {
     projects[4] = new Project("#009933", GITROOT + "Cells/", "Cells", "Singing cells");
     projects[5] = new Project("#10ab7c", GITROOT + "Cells2/", "Cells II", "Evolutionary cells");
     projects[6] = new Project("#336699", GITROOT + "Microphone/", "Cells III", "Listening cells");
-    // projects[7] = new Project("black", "", "Blank", "Nothing yet");
+    projects[7] = new Project("#D16666", GITROOT + "Dark-Pool/", "Pool", "Life finds a way");
     // projects[8] = new Project("black", "", "Blank", "Nothing yet");
 
     return projects;
