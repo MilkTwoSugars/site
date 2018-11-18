@@ -13,6 +13,7 @@ function getProjects() {
     projects[7] = new Project("#D16666", GITROOT + "Dark-Pool/", "Pool", "Life finds a way");
     projects[8] = new Project("#A34091", GITROOT + "Audio-Demo/", "Visual", "Use keyboard/mouse/midi");
     projects[9] = new Project("#F54949", GITROOT + "Camera/", "Camera", "Click to change (Requires Camera)");
+    projects[10] = new Project("#cc0000", GITROOT + "GlowWorm/", "GlowWorm", "It likes red");
     // projects[10] = new Project("black", "", "Blank", "Nothing yet");
 
     return projects;
