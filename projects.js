@@ -16,7 +16,7 @@ function getProjects() {
     projects[10] = new Project("#cc0000", GITROOT + "GlowWorm/", "GlowWorm", "It likes red");
     projects[11] = new Project("#f99fbf", GITROOT + "AtomCamera/", "Atom Camera", "Light up the atoms (Requires Camera)");
     projects[12] = new Project("#009999", GITROOT + "Keyamra/", "Keyamra", "Musical keys. Be careful with loud volume and bright rooms! (Requires Camera)");
-    projects[12] = new Project("#159d96", GITROOT + "ControllerSnake/", "Controller Snake", "Guide the snake (Requires controller);
+    projects[12] = new Project("#159d96", GITROOT + "ControllerSnake/", "Controller Snake", "Guide the snake (Requires controller);"
     // projects[12] = new Project("black", "", "Blank", "Nothing yet");
 
     return projects;
